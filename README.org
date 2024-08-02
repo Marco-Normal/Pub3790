@@ -1,0 +1,39 @@
+#+title: Readme
+#+author: Marco Túlio Mello Silva
+
+* Introduction
+This is the implemetation of my Machine Learning models that was used in my Scientific Initiation project. To use it, you will need to have the [[ https://doi.org/10.1029/2019WR024883][Aquasat]] dataset, and the [[https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=form][ERA5]] reanalysis dataset. For the era Era5 dataset, you will check the following variables:
+- 2m_temperature
+- Surface net Solar Radiation
+- Evaporation from open water surfaces excluding oceans
+- 10m_u_component_of_wind
+- 10m_v_component_of_wind
+- Total precipitation
+- Leaf Area Index High vegetation
+- Leaf Area Index Low vegetation
+
+* Usage
+To use the models, you will need to have the Aquasat dataset and the ERA5 dataset. The libraries that you will need to install are:
+- numpy
+- pandas
+- matplotlib (optional)
+- seaborn (optional)
+- sklearn
+- xarray
+- Dask
+- optuna
+- XGBoost
+- sciencePlots (optional)
+
+Then you can follow the steps in the notebooks to train the models.
+
+* Models
+The models that are implemented are:
+- Random Forest
+- XGBoost
+- SVR
+
+They all are trained in somewhat deterministic ways, so it will be similar with the results that I got in my project.
+
+* Disclaimer
+I know that the code is not the best, but I'm still learning. If you have any suggestions, please let me know. I tried my best to make it as clean as possible, but I know that there are some things that I could improve. If you have any questions, please let me know, I will be happy to help you.
