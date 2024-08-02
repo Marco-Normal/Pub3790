@@ -2,7 +2,7 @@
 #+author: Marco Túlio Mello Silva
 
 * Introduction
-This is the implemetation of my Machine Learning models that was used in my Scientific Initiation project. To use it, you will need to have the [[ https://doi.org/10.1029/2019WR024883][Aquasat]] dataset, and the [[https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=form][ERA5]] reanalysis dataset. For the era Era5 dataset, you will check the following variables:
+This is the implemetation of my Machine Learning models that was used in my Scientific Initiation project. To use it, you will need to have the [[https://doi.org/10.1029/2019WR024883][Aquasat]] dataset, and the [[https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=form][ERA5]] reanalysis dataset. For the era Era5 dataset, you will check the following variables:
 - 2m_temperature
 - Surface net Solar Radiation
 - Evaporation from open water surfaces excluding oceans
